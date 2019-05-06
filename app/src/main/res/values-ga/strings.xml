@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name"></string>
+    <string name="dummy_string">dummy string</string>
+    
+    <string name="Instructions"></string>
+    <string name="step_1"></string>
+    <string name="step_2"></string>
+    <string name="step_3"></string>  
+   
+    <string name="Learn"></string>
+    <string name="learn_text1"></string>
+   	<string name="learn_text2"></string>   
+    <string name="learn_text3"></string>   
+    <string name="learn_text4"></string>   
+    <string name="learn_text5"></string> 
+    <string name="learn_text6"></string>
+    <string name="learn_text7"></string>
+    <string name="learn_text8"></string>   
+
+    
+    <string name="Measure"></string> 
+    <string name="Partners"></string>
+	<string name="partners_text"></string>
+    <string name="btn_start_text"></string> 
+    <string name="btn_stop_text"></string> 
+    
+	<string name="English"></string>
+	<string name="Irish"></string>
+	<string name="Dutch"></string>
+	<string name="French"></string>
+	<string name="Spanish"></string>
+	<string name="Catalan"></string>
+	<string name="German"></string>
+	<string name="Italian"></string>
+	<string name="Slovak"></string>
+	<string name="Portuguese"></string>
+		
+    <string name="graph_title"></string>
+    <string name="x_label"></string>
+    <string name="y_label"></string>
+    
+    <string name="redImageView">Red Image View</string>
+	<string name="greenImageView">Green Image View</string>
+	<string name="blueImageView">Blue Image View</string>
+	<string name="tiviImageView">TiVi Image View</string>
+	<string name="cameraText">Camera Feed</string>
+	<string name="tiviString">Contrast Image</string>
+	<string name="redString">Red Image</string>
+	<string name="blueString">Blue Image</string>
+	<string name="greenString">Green Image</string>
+	
+</resources>

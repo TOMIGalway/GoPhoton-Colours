@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Cores</string>
+    <string name="dummy_string">dummy string</string>
+    
+    <string name="Instructions">Instruções</string>
+    <string name="step_1">1. Aponte a câmera do seu celular para o rosto do seu amigo(a) e pressione o botão iniciar.</string>
+    <string name="step_2">2. Posicione o rosto da pessoa dentro do retângulo azul na tela. Se o seu celular não tem um flash, é importante que você use este aplicativo em uma área bem iluminada.</string>
+    <string name="step_3">3. Faça uma pergunta ao seu amigo(a). Se ele(a) se sentir envergonhado seu rosto pode ficar vermelho e o valor médio de contraste irá aumentar. É importante manter o celular imóvel ao fazer este teste.</string>  
+   
+    <string name="Learn">Entenda </string>
+    <string name="learn_text1">O flash no seu celular funciona como uma fonte de luz branca que emite todos os comprimentos de onda visíveis. Os comprimentos de onda da luz que são absorvidos e refletidos por um objeto determinam a sua cor.</string>
+   	<string name="learn_text2">Em cada câmera, existe um filtro de cor sobre o sensor da câmera, que vai permitir que um pixel individual do sensor capture a luz vermelha, verde ou azul. Isto significa que é possível acessar as imagens vermelhas, verdes ou azuis independentemente.</string>   
+    <string name="learn_text3">Isto pode ser muito útil para analisar as cores dos objetos. Por exemplo, se um objeto é de cor verde, isso significa que ele vai refletir a luz verde de forma mais eficiente do que a luz vermelha ou azul. Como resultado, este objeto aparece brilhante na imagem verde e escuro nas imagens vermelhas e azuis.</string>   
+    <string name="learn_text4">Quando obtemos uma imagem da pele humana, a câmara capta a luz, parte da qual foi refletida a partir de dentro do tecido e tem interagido com o tecido e o sangue. As imagens a seguir representam as imagens de vermelhos, verdes e azuis individuais que a câmera captura de seu rosto. Como o sangue é vermelho, o que significa que mais luz vermelha será refletido a partir de tecido que a luz verde ou azul. Em outras palavras, quanto mais sangue presente no tecido, a luz verde é menos refletida.</string>   
+    <string name="learn_text5">Isto significa que por meio da diferença entre as imagens vermelhas e verdes, é possível obter uma imagem que é sensível à concentração de sangue. Esta imagem é calculada medindo-se o contraste entre as imagens vermelhas e verdes, utilizando a seguinte equação.</string> 
+    <string name="learn_text6">Um experimento simples é pressionar para baixo em seu braço usando o polegar por alguns segundos. Isso empurra o sangue para fora desta região e quando você soltar, parece temporariamente de cor mais clara. Subsequentemente, verifica-se mais vermelho, quando o sangue re-entra na região.</string>
+    <string name="learn_text7">A absorção da luz vermelha para o tecido e sangue é bastante semelhante, portanto, há pouco contraste na imagem vermelha. No entanto, o sangue vai absorver luz verde mais do que o tecido, portanto, um bom contraste é visto na imagem verde.</string>
+    <string name="learn_text8">Alternativamente, você pode apontar a câmera para o rosto do seu amigo(a) e fazer algumas perguntas. Se eles ficam sem graça, às vezes eles ficam vermelhos porque mais sangue flui para a região facial. Podemos monitorar isso calculando o contraste médio dentro da região do rosto.</string>   
+
+    
+    <string name="Measure">Medição</string> 
+    <string name="Partners">Parceiros</string>
+	<string name="partners_text">Dedicado a aumentar a percepção da importância da Fotônica, a ciência da luz, GoPhoton! É uma iniciativa da ECOP, sigla em inglês para a aliança de Centros Europeus para Disseminação da Fotônica.</string>
+    <string name="btn_start_text">Começo</string> 
+    <string name="btn_stop_text">Pare</string> 
+    
+	<string name="English">Inglês</string>
+	<string name="Irish">Irlandês</string>
+	<string name="Dutch">Holandês</string>
+	<string name="French">Francês</string>
+	<string name="Spanish">Espanhol</string>
+	<string name="Catalan">Catalão</string>
+	<string name="German">Alemão</string>
+	<string name="Italian">Italiano</string>
+	<string name="Slovak"> Eslovaco</string>
+	<string name="Portuguese">Português</string>
+		
+    <string name="graph_title">Contraste médio</string>
+    <string name="x_label">Tempo</string>
+    <string name="y_label">Contraste</string>
+    
+    <string name="redImageView">Red Image View</string>
+	<string name="greenImageView">Green Image View</string>
+	<string name="blueImageView">Blue Image View</string>
+	<string name="tiviImageView">TiVi Image View</string>
+	<string name="cameraText">Camera Feed</string>
+	<string name="tiviString">Contrast Image</string>
+	<string name="redString">Red Image</string>
+	<string name="blueString">Blue Image</string>
+	<string name="greenString">Green Image</string>
+	
+</resources>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Farby</string>
+    <string name="dummy_string">dummy string</string>
+    
+    <string name="Instructions">Návod</string>
+    <string name="step_1">1. Nasmerujte kameru mobilného telefónu na tvár Vášho priateľa a stlačte tlačidlo Štart.</string>
+    <string name="step_2">2. Nasmerujte kameru tak, aby tvár snímanej osoby bola  v modrom obdĺžniku na obrazovke. Ak Váš telefón nemá blesk, je dôležité používať túto aplikáciu v dobre osvetlenom prostredí.</string>
+    <string name="step_3">3. Opýtajte sa priateľa nejakú otázku. Ak sa dostane do rozpakov, môže sčervenieť v tvári a priemerný kontrast obrazu sa zvýši. Počas testu je dôležité, aby ste držali telefón pokojne bez pohybu.</string>  
+   
+    <string name="Learn">Vysvetlenie</string>
+    <string name="learn_text1">Blesk na Vašom mobilnom telefóne je zdroj bieleho svetla, ktorý emituje všetky viditeľné vlnové dĺžky. Vlnové dĺžky svetla sú absorbované a odrážané objektom a určujú jeho farbu.</string>
+   	<string name="learn_text2">Každá kamera má na snímacom senzore farebný filter, ktorý umožňuje jednotlivým bodom senzoru snímať červené, zelené a modré svetlo. To znamená, že je možné nezávisle získať červený, zelený a modrý obraz.</string>   
+    <string name="learn_text3">Táto možnosť je veľmi vhodná pre analýzu farby objektov. Napríklad, ak má objekt zelenú farbu, odráža zelené svetlo oveľa viac ako čerevené alebo modré svetlo. To spôsobuje, že objekt sa javí svetlejší na zelenom obrázku a tmavší na červenom alebo modrom obrázku.</string>   
+    <string name="learn_text4">Ak sa sníma obraz ľudskej kože, kamera sníma svetlo, ktorého časť sa odrazila z tkaniva kože a interagovala s tkanivom a krvou. Nasledovné obrázky reprezentujú jednotlivé červené, zelené a modré obrázky, ktoré kamera zosnímala z Vašej tváre. Pretože je krv červená, z tkaniva sa odrazí viac červeného svetla ako svetla zeleného alebo modrého. Inými slovami povedané, čím je viac krvi v tkanive, tím menej sa odrazí zeleného svetla.</string>   
+    <string name="learn_text5">To znamená, že využitím rozdielu medzi zeleným a červeným obrázkom, je možné dostať obrázok, ktorý je citlivý na koncentráciu krvi v tkanive. Takýto obrázok je možno vypočítať pomocou určenia kontrastu medzi červeným a zeleným obrázkom podľa nasledujúcej rovnice.</string> 
+    <string name="learn_text6">Pre jednoduchý experiment, niekoľko sekúnd tlačte palcom na svoju ruku. Tlak palca vytláča krv zo stlačenej oblasti. Keď  uvoľníte tlak palca, oblasť sa bude na obrázku javiť farebne svetlejšia. Ako krv opätovne prúdi do oblasti, oblasť sa stáva viac červenou.</string>
+    <string name="learn_text7">Absorpcia čeveného svetla tkanivom a krvou je veľmi podobná, preto je červený obrázok málo kontrastný. Na druhe strane však krv absorbuje viac zeleného svetla ako tkanivo, čo sa prejavuje výraznejším kontrastom v zelenom obrázku.</string>
+    <string name="learn_text8">Prípadne nasmerujte kameru na tvár Vášho priateľa a pýtajte sa ho nejaké otázky. Ak sa dostane do rozpakov, môže sčervenieť v tvári v dôsledku zvýšeného prietoku krvi v tvárovej oblasti. Toto môžeme monitorovať vypočítaním priemerného kontrastu obrázku v oblasti tváre.</string>   
+
+    
+    <string name="Measure">Meranie</string> 
+    <string name="Partners">Partneri</string>
+	<string name="partners_text">Venované zvýšeniu povedomia o dôležitosti fotoniky - vedy o svetle. GoPhoton! je iniciatíva aliancie ECOP (the European Centres for Outreach in Photonics).</string>
+    <string name="btn_start_text">Štart</string> 
+    <string name="btn_stop_text">Stop</string> 
+    
+	<string name="English">Angličtina</string>
+	<string name="Irish">Írčina</string>
+	<string name="Dutch">Holandčina</string>
+	<string name="French">Franczúština</string>
+	<string name="Spanish">Španielčina</string>
+	<string name="Catalan">Katalánčina</string>
+	<string name="German">Nemčina</string>
+	<string name="Italian">Taliančina</string>
+	<string name="Slovak">Slovensky</string>
+	<string name="Portuguese">Portugalčina</string>
+		
+    <string name="graph_title">Priemerný kontrast</string>
+    <string name="x_label">čas</string>
+    <string name="y_label">kontrast</string>
+    
+    <string name="redImageView">Red Image View</string>
+	<string name="greenImageView">Green Image View</string>
+	<string name="blueImageView">Blue Image View</string>
+	<string name="tiviImageView">TiVi Image View</string>
+	<string name="cameraText">Camera Feed</string>
+	<string name="tiviString">Contrast Image</string>
+	<string name="redString">Red Image</string>
+	<string name="blueString">Blue Image</string>
+	<string name="greenString">Green Image</string>
+	
+</resources>

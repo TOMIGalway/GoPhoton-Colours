@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Colors</string>
+    <string name="dummy_string">dummy string</string>
+    
+    <string name="Instructions">Instruccions</string>
+    <string name="step_1">1. Apunta amb la càmera fotogràfica del teu telèfon a la cara d\'un amic i prem el botó d\’inici.</string>
+    <string name="step_2">2. Emmarca la cara de la persona dins el rectangle blau que apareix a pantalla. Si el teu telèfon no disposa de flaix, és important que utilitzis aquesta aplicació en un espai amb bona il·luminació.</string>
+    <string name="step_3">3. Fes una pregunta al teu amic. Si se sent avergonyit, la seva cara es podria enrojolar, el que faria incrementar el valor mig de contrast. És important mantenir el telèfon quiet durant tot el procés.  </string>  
+   
+    <string name="Learn">Com funciona?</string>
+    <string name="learn_text1">El flaix del teu mòbil és una font de llum blanca que emet en totes les longituds d\'ona visibles (colors). Les longituds d\’ona que són absorbides i reflectides per un objecte determinen el seu color.</string>
+   	<string name="learn_text2">A la càmera del teu mòbil hi ha un filtre sobre el sensor que fa que cada píxel sensor capturi llum verda, vermella o blava. Això vol dir que és possible accedir a les imatges verdes, vermelles o blaves independentment.</string>   
+    <string name="learn_text3">Això pot ser molt útil per analitzar els colors d\’objectes. Per exemple, si el color d\'un objecte és verd, significa que reflecteix el verd de forma més eficient que el vermell o el blau. Com a resultat d\’això, aquest objecte apareixerà brillant a la imatge verda i apagat a les imatges blava i vermella.</string>   
+    <string name="learn_text4">Quan es visualitza la pell humana a través d\’imatges, part de la llum que captura la càmera ha estat reflectida pel teixit sota la pell i després d\'interaccionar amb el teixit i la sang. Les següents imatges són les representacions individuals vermella, verda i blava que la càmera ha captat de la cara. Com que la sang és vermella, el teixit reflectirà més llum vermella que no pas verda o blava. Dit d\’una altra manera, com més sang hi hagi al teixit, menys llum verda serà reflectida.</string>   
+    <string name="learn_text5">Això significa que mirant la diferència entre les imatges vermella i verda, és possible obtenir una representació que és sensible a la concentració de sang. Aquesta imatge és calculada mesurant el contrast entre les imatges vermella i verda utilitzant la següent fórmula.</string> 
+    <string name="learn_text6">Un experiment senzill és pressionar el braç amb el polze durant uns segons. Això fa que la sang no arribi a l’àrea de pressió, i quan es deixa de pressionar la pell, en aquest punt, es veu més clara que els voltants. Subseqüentment, l’àrea s’enrogeix a mesura que la sang torna a fluir.</string>
+    <string name="learn_text7"> L’absorció de llum vermella per part del teixit i la sang és similar, fet pel qual hi ha poc contrast en la imatge vermella. La sang, però, absorbeix més llum verda que el teixit i és per això que es veu un bon contrast en la imatge verda.</string>
+    <string name="learn_text8">De forma alternativa, es pot enfocar la càmera a la cara d’una persona i fer-li preguntes. Si sent vergonya, es pot enrojolar perquè més sang li flueix a la cara. Podem seguir aquest procés calculant el contrast mig dins de la regió de la cara.</string>   
+
+    
+    <string name="Measure">Mesura</string> 
+    <string name="Partners">Socis</string>
+	<string name="partners_text">GoPhoton! és una iniciativa de l\'aliança ECOP (European Centres for Outreach in Photonics) dedicada a donar a conèixer a la societat de la importància de la Fotònica.</string>
+    <string name="btn_start_text">Inici</string> 
+    <string name="btn_stop_text">Stop</string> 
+    
+	<string name="English">Anglès</string>
+	<string name="Irish">Irlandès</string>
+	<string name="Dutch">Holandès</string>
+	<string name="French">Francès</string>
+	<string name="Spanish">Castellà</string>
+	<string name="Catalan">Català</string>
+	<string name="German">Alemany</string>
+	<string name="Italian">Italià</string>
+	<string name="Slovak">Eslovac</string>
+	<string name="Portuguese">Portuguès</string>
+		
+    <string name="graph_title">Valor de contrast mig</string>
+    <string name="x_label">Temps</string>
+    <string name="y_label">Contrast</string>
+    
+    <string name="redImageView">Red Image View</string>
+	<string name="greenImageView">Green Image View</string>
+	<string name="blueImageView">Blue Image View</string>
+	<string name="tiviImageView">TiVi Image View</string>
+	<string name="cameraText">Camera Feed</string>
+	<string name="tiviString">Contrast Image</string>
+	<string name="redString">Red Image</string>
+	<string name="blueString">Blue Image</string>
+	<string name="greenString">Green Image</string>
+	
+</resources>

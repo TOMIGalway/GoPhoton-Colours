@@ -1,0 +1,148 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android1="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:gravity="top"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp">
+
+ <!-- Linear layout to hold the Measure title -->   
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:baselineAligned="false" >
+    
+    <!-- Measure title -->
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:layout_gravity="center"
+ 	 	android:textSize="28sp" />
+    
+    
+    <!-- Linear layout within scroll view 
+    	This layout is split in to right and left columns -->
+	<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:baselineAligned="false" >
+    
+
+	    
+	<!-- Left Column Linear Layout  -->
+	<LinearLayout 
+    android:layout_width="0dp"
+    android:layout_height="400dp"
+    android:orientation="vertical"
+    android:layout_gravity="start"
+    android:gravity="center_horizontal"
+    android:layout_weight="1">
+    
+
+	    <Button
+        android:id="@+id/button1"
+        android:layout_width="135dp"
+        android:layout_height="60dp"
+        android:text="@string/btn_start_text"
+        android:layout_gravity="center" />
+	    
+	    <!-- Relative Layout to hold the colour image and the blue rectangle -->
+	    <RelativeLayout
+            android:layout_width="125dp"
+            android:layout_height="183dp"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:paddingBottom="30dp"
+            android:background="@color/black" >
+	    
+	        <!-- Colour Image -->
+		    <SurfaceView
+		        android:id="@+id/full_colour"
+		        android:layout_width="match_parent"
+		        android:layout_height="match_parent" /> <!-- ie height minus padding -->
+		    
+		    <!-- Blue Rectangle -->
+		    <SurfaceView
+             	android:layout_alignParentTop="true"
+                android:id="@+id/TransparentView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/> <!-- ie height minus padding -->
+		    
+		</RelativeLayout>
+		
+		    <!-- False colour Image -->
+		    <!-- When the start button is pressed, the view rotates anti-clockwise so the width and height attributes are rotated -->
+		    <ImageView
+	        android:contentDescription="@string/tiviImageView"
+	        android:id="@+id/tiviImageView"
+	        android:layout_width="153dp"
+	        android:layout_height="125dp"
+	        android:paddingLeft="0dp"
+	        android:gravity="bottom" />
+		    
+	 <!--    </RelativeLayout>  --><!-- End of relative layout holding the TiVi image -->
+	    
+	</LinearLayout> <!-- End of left column linear layout -->
+	
+	<!-- Right Column Linear Layout  -->
+	<LinearLayout 
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_gravity="end"
+    android:layout_weight="0.6" >
+    
+	    	<!-- Red Image -->
+			<ImageView
+	        android:contentDescription="@string/redImageView"
+	        android:id="@+id/redImageView"
+	        android:layout_width="fill_parent"
+	        android:layout_height="130dp" />
+			
+			<!-- Green Image -->
+			<ImageView
+	        android:contentDescription="@string/greenImageView"
+	        android:id="@+id/greenImageView"
+	        android:layout_width="fill_parent"
+	        android:layout_height="130dp"
+	         />
+			
+			<!-- Blue Image -->
+			<ImageView
+	        android:contentDescription="@string/blueImageView"
+	        android:id="@+id/blueImageView"
+	        android:layout_width="fill_parent"
+	        android:layout_height="130dp" />
+			
+	    
+		</LinearLayout> <!-- End of right column linear layout -->
+    
+	</LinearLayout> <!-- End of the linear layout which containts both columns -->
+	
+			<com.androidplot.xy.XYPlot
+		    android:id="@+id/tiviHistoryPlot"
+		    android:layout_width="fill_parent"
+		    android:layout_height="200dp"
+		    android:layout_marginTop="10dp"
+	
+		    title="Mean Contrast Image"
+		    androidPlot.rangeLabelWidget.labelPaint.textSize="12dp"
+	    	androidPlot.titleWidget.labelPaint.textSize="15dp"
+	    	androidPlot.domainLabelWidget.labelPaint.textSize="12dp"
+	    	
+	    	
+		    />
+	    
+
+    
+	</LinearLayout>
+	
+</ScrollView>

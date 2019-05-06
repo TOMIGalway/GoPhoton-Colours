@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Kleuren</string>
+    <string name="dummy_string">dummy string</string>
+    
+    <string name="Instructions">Instructies</string>
+    <string name="step_1">1. Richt de camera van je smartphone op het gezicht van je vriend en druk op de start knop.</string>
+    <string name="step_2">2. Positioneer het gezicht van je vriend in de blauwe rechthoek op het scherm. Indien je smartphone geen flits heeft, is het belangrijk om deze app te gebruiken in een goed verlichte ruimte.</string>
+    <string name="step_3">3. Stel je vriend een vraag. Wanneer je vriend zich schaamt, zal zijn/haar gezicht rood kleuren en de gemiddelde contrastwaarde zal stijgen. Het is belangrijk om je smartphone heel stil te houden wanneer je dit experiment doet.</string>  
+   
+    <string name="Learn">Leer</string>
+    <string name="learn_text1">De flits op je smart phone fungeert als een witte lichtbron die alle zichtbare golflengtes uitstuurt. De golflengtes van licht die geabsorbeerd en gereflecteerd worden door een object bepalen de kleur van dat object.</string>
+   	<string name="learn_text2">In elke camera zit er een kleurenfilter over de camera sensor die een enkele pixel van de sensor toelaat rood, groen of blauw licht op te vangen. Dit betekent dat het mogelijk is om afzonderlijk rode, groene en blauwe beelden te krijgen.</string>   
+    <string name="learn_text3">Dit is heel handig in het bepalen van de kleur van voorwerpen. Bijvoorbeeld: wanneer een voorwerp groen kleurt, zal het groene licht meer gereflecteerd worden dan het rode of blauwe licht. Bijgevolg, zal dit voorwerp helder lijken in het groene beeld en donker lijken in het rode en het blauwe beeld.</string>   
+    <string name="learn_text4">Wanneer we de camera richten op de menselijke huid , zal de camera ook licht detecteren dat reflecteerd wordt vanin het weefsel en dus geinterageerd heeft met weefsel en bloed.  De volgende beelden stellen de individuele rode, groene en blauwe beelden voor die de camera opneemt van het gezicht. Omdat bloed rood is, zal er meer rood licht gereflecteerd worden vanaf het weefsel dan groen en blauw licht. Met andere woorden, hoe meer bloed er aanwezig is in het weefsel, des te minder groen licht er gereflecteerd wordt.</string>   
+    <string name="learn_text5">Door het verschil te bekijken tussen de rode en groene beelden, is het mogelijk om een beeld te krijgen dat een indicatie geeft over de concentratie van het bloed. Dit beeld wordt berekend door het contrast te meten tussen het rode en het groene beeld en door gebruik te maken van volgende vergelijking.</string> 
+    <string name="learn_text6">Als je met je duim een paar seconden op je arm duwt, duw je het bloed weg van die plaats en wanneer je vervolgens duimt weghaalt, lijkt die plek even lichter van kleur. Wanneer het bloed nadien terug stroomt naar die plek, lijkt deze plek juist roder.</string>
+    <string name="learn_text7"> De reflectie van het rode licht bij weefsel en bloed is gelijkaardig, dus zien we weinig contrast in de rode afbeelding. Echter,  het bloed absorbeert meer groen licht dan het weefsel, dus een goed contrast zal zichtbaar zijn in de groene afbeelding.</string>
+    <string name="learn_text8">Op dezelfde manier kan je de camera richten op het gezicht van je vriend en stel hem/haar dan een vraag. Indien je vriend zich schaamt, zal het gezicht roder worden omdat er meer bloed zal stromen in deze zone. We kunnen dit dan weergeven door het gemiddelde contrast te berekenen in de gezichtszone. </string>   
+
+    
+    <string name="Measure">Meet</string> 
+    <string name="Partners">Partners</string>
+	<string name="partners_text">Om het belang van fotonica, de wetenschap van het licht, aan te tonen, werd het project Gophoton! opgestart. Dit is een initiatief van ECOP, the European Centres for Outreach in Photonics alliance. </string>
+    <string name="btn_start_text">Start</string> 
+    <string name="btn_stop_text">Stop</string> 
+    
+	<string name="English">Engels</string>
+	<string name="Irish">Iers</string>
+	<string name="Dutch">Nederlands</string>
+	<string name="French">Frans</string>
+	<string name="Spanish">Spaans</string>
+	<string name="Catalan">Catalaanse</string>
+	<string name="German">Duits</string>
+	<string name="Italian">Italiaans</string>
+	<string name="Slovak">Slovaaks</string>
+	<string name="Portuguese">Portugees</string>
+		
+    <string name="graph_title">Gemiddelde Contrast Waarde</string>
+    <string name="x_label">Tijd</string>
+    <string name="y_label">Contrast</string>
+    
+    <string name="redImageView">Red Image View</string>
+	<string name="greenImageView">Green Image View</string>
+	<string name="blueImageView">Blue Image View</string>
+	<string name="tiviImageView">TiVi Image View</string>
+	<string name="cameraText">Camera Feed</string>
+	<string name="tiviString">Contrast Image</string>
+	<string name="redString">Red Image</string>
+	<string name="blueString">Blue Image</string>
+	<string name="greenString">Green Image</string>
+	
+</resources>

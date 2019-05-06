@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Farben</string>
+    <string name="dummy_string">dummy string</string>
+    
+    <string name="Instructions">Anleitung</string>
+    <string name="step_1">1. Richte deine Handykamera auf das Gesicht einer Person und drücke START.</string>
+    <string name="step_2">2. Positioniere das Gesicht der Person innerhalb des blauen Rechtecks. Falls dein Handy keinen Blitz hat, muss die Umgebung sehr hell sein. </string>
+    <string name="step_3">3. Stelle der Person eine Frage. Errötet das Gesicht der Person bei einer Frage, steigt der durchschnittliche Kontrastwert. Es ist wichtig das Handy dabei sehr ruhig zu halten.</string>  
+   
+    <string name="Learn">Wie funktioniert das?</string>
+    <string name="learn_text1">Der Blitz deines Handys arbeitet mit einer weißen Lichtquelle, die alle sichtbaren Wellenlängen emittiert. Die Wellenlänge des Lichts, das von Objekten absorbiert und reflektiert wird, bestimmt deren Farbe.</string>
+   	<string name="learn_text2">In jeder Kamera ist ein Farbfilter über dem Sensor, der individuell rotes, grünes oder blaues Licht abfängt. Das heißt, dass man unabhängig voneinander ein rotes, grünes oder blaues Bild erhalten kann.</string>   
+    <string name="learn_text3">Das ist sehr hilfreich um die Farben verschiedener Objekte zu analysieren. Ist ein Gegenstand beispielsweise grün, dann bedeutet das, dass er grünes Licht stärker reflektiert als rotes oder blaues. Durch den Farbfilter würde der Gegenstand sehr hell im grünen Bild erscheinen, im roten und blauen Bild aber sehr dunkel sein.</string>   
+    <string name="learn_text4">Wenn man menschliche Haut fotografiert, erfasst die Kamera das Licht, das vom Gewebe reflektiert wird und das mit dem Blut interagiert hat. Die folgenden Bilder zeigen die einzelnen roten, grünen und blauen Bilder vom aufgenommenen Gesicht. Da unser Blut rot ist, wird mehr rotes Licht reflektiert als grünes und blaues. Mit anderen Worten: Je mehr Blut im Gewebe ist, desto weniger grünes Licht wird reflektiert.</string>   
+    <string name="learn_text5">Die Unterschiede zwischen den roten und grünen Bildern weisen daher auf verschiedene Blutkonzentration im Gewebe hin. Dieses Bild wird durch Messung der Kontrastwerte von roten und grünen Bildern mit folgender Gleichung ermittelt.</string> 
+    <string name="learn_text6">Ein einfaches Experiment dazu: Drücke für ein paar Sekunden den Daumen auf deinen Arm. Damit drückst du das Blut aus der Region heraus. Wenn du los lässt, erscheint die Haut kurzzeitig heller, bis das Blut wieder zurück fließt. Die Haut erscheint sogar etwas röter wenn das Blut zurück fließt.</string>
+    <string name="learn_text7">Die Absorption von rotem Licht ist für Gewebe und Blut ungefähr gleich. Es gibt also nur einen kleinen Kontrast im roten Bild. Allerdings absorbiert Blut mehr grünes Licht als Gewebe, somit gibt es im grünen Bild einen guten Kontrast.</string>
+    <string name="learn_text8">Alternativ kannst du nun die Kamera auf das Gesicht einer Person richten und einige Fragen stellen. Wenn der Person etwas unangenehm ist, kann sie erröten. Dies bedeutet, dass mehr Blut in die Gesichtsregion fließt. Wir können das durch Errechnung des mittleren Kontrastwertes überprüfen.</string>   
+
+    
+    <string name="Measure">Messung</string> 
+    <string name="Partners">Partner</string>
+	<string name="partners_text">Entwickelt um die Bedeutung der Photonik, der Wissenschaft des Lichts, zu verdeutlichen. GoPhoton! ist eine Initiative von ECOP (European Centres for Outreach in Photonics).</string>
+    <string name="btn_start_text">Start</string> 
+    <string name="btn_stop_text">Stop</string> 
+    
+	<string name="English">Englisch</string>
+	<string name="Irish">Irisch</string>
+	<string name="Dutch">Holländisch</string>
+	<string name="French">Französich</string>
+	<string name="Spanish">Spanisch</string>
+	<string name="Catalan">Katalanisch</string>
+	<string name="German">Deutsch</string>
+	<string name="Italian">Italienisch</string>
+	<string name="Slovak">Slovakisch</string>
+	<string name="Portuguese">Portugiesisch</string>
+		
+    <string name="graph_title">mittlerer Kontrast</string>
+    <string name="x_label">Zeit</string>
+    <string name="y_label">Kontrast</string>
+    
+    <string name="redImageView">Red Image View</string>
+	<string name="greenImageView">Green Image View</string>
+	<string name="blueImageView">Blue Image View</string>
+	<string name="tiviImageView">TiVi Image View</string>
+	<string name="cameraText">Camera Feed</string>
+	<string name="tiviString">Contrast Image</string>
+	<string name="redString">Red Image</string>
+	<string name="blueString">Blue Image</string>
+	<string name="greenString">Green Image</string>
+	
+</resources>

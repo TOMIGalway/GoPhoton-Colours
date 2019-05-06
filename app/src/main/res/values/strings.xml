@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Colours</string>
+    <string name="dummy_string">dummy string</string>
+    
+    <string name="Instructions">Instructions</string>
+    <string name="step_1">1. Point your camera phone at your friend\'s face and press the start button.</string>
+    <string name="step_2">2. Position the person\'s face within the blue rectangle on the screen. If your phone does not have a flash, it is important that you use this app in a well-lit area.</string>
+    <string name="step_3">3. Ask your friend a question. If they get embarrassed their face may turn red and the mean contrast value will increase. It is important to keep the phone very still when doing this test.</string>  
+   
+    <string name="Learn">Learn</string>
+    <string name="learn_text1">The flash on your smart phone acts as a white light source which emits all visible wavelengths. The wavelengths of light which are absorbed and reflected from an object determine its colour.</string>
+   	<string name="learn_text2">In every camera, there is a colour filter over the camera sensor which will allow an individual sensor pixel to capture red, green or blue light. This means that it is possible to access the red, green or blue images independently.</string>   
+    <string name="learn_text3">This can be very useful for analysing the colour of objects. For example, if an object is green in colour, this means it will reflect green light more efficiently than red or blue light. As a result, this object will appear bright in the green image and dark in the red and blue images.</string>   
+    <string name="learn_text4">When imaging human skin, the camera captures light, some of which has been reflected from within the tissue and has intereacted with the tissue and blood. The following images represent the individual red, green and blue images that the camera captures from your face. Because blood is red, this means that more red light will be reflected from tissue than green or blue light. In other words, the more blood present in tissue, the less green light reflected.</string>   
+    <string name="learn_text5">This means that by looking at the difference between the red and green images, it is possible to get an image which is sensitive to blood concentration. This image is calculated by measuring the contrast between the red and green images using the following equation.</string> 
+    <string name="learn_text6">A simple experiment is to press down on your arm using your thumb for a few seconds. This pushes the blood out of this region and when you release, it temporarily appears lighter in colour. Subsequently, it appears more red as the blood re-enters the region.</string>
+    <string name="learn_text7">The absorption of red light for tissue and blood is quite similar, hence there is little contrast in the red image. However, the blood will absorb more green light than tissue, hence good contrast is seen in the green image.</string>
+    <string name="learn_text8">Alternatively, you can point the camera at your friend\'s face and ask them some questions. If they get embarrassed, sometimes they turn red because more blood flows into the facial region. We can monitor this by calculating the mean contrast within in the face-region.</string>   
+
+    
+    <string name="Measure">Measure</string> 
+    <string name="Partners">Partners</string>
+	<string name="partners_text">Dedicated to raising the awareness of the importance of Photonics, the science of light, GoPhoton! is an initiative of ECOP, the European Centres for Outreach in Photonics alliance.</string>
+    <string name="btn_start_text">Start</string> 
+    <string name="btn_stop_text">Stop</string> 
+    
+	<string name="English">English</string>
+	<string name="Irish">Irish</string>
+	<string name="Dutch">Dutch</string>
+	<string name="French">French</string>
+	<string name="Spanish">Spanish</string>
+	<string name="Catalan">Catalan</string>
+	<string name="German">German</string>
+	<string name="Italian">Italian</string>
+	<string name="Slovak">Slovak</string>
+	<string name="Portuguese">Portuguese</string>
+		
+    <string name="graph_title">Mean Contrast</string>
+    <string name="x_label">time, t (s)</string>
+    <string name="y_label">contrast, I</string>
+    
+    <string name="redImageView">Red Image View</string>
+	<string name="greenImageView">Green Image View</string>
+	<string name="blueImageView">Blue Image View</string>
+	<string name="tiviImageView">TiVi Image View</string>
+	<string name="cameraText">Camera Feed</string>
+	<string name="tiviString">Contrast Image</string>
+	<string name="redString">Red Image</string>
+	<string name="blueString">Blue Image</string>
+	<string name="greenString">Green Image</string>
+	
+</resources>

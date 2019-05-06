@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Colores</string>
+    <string name="dummy_string">dummy string</string>
+    
+    <string name="Instructions">Instrucciones</string>
+    <string name="step_1">1. Apunta con la cámara de tu teléfono la cara de un amigo y presiona el botón de inicio.</string>
+    <string name="step_2">2. Enmarca la cara dentro del rectángulo azul que aparece en pantalla. Si tu teléfono no dispone de flash, es importante que uses esta aplicación en un espacio con buena iluminación.</string>
+    <string name="step_3">3. Hazle una pregunta a tu amigo. Si se siente avergonzado,  su cara se podría sonrojar, lo que haría incrementar el valor medio de contraste. Es importante mantener el teléfono quieto durante el proceso.</string>  
+   
+    <string name="Learn">¿Cómo funciona?</string>
+    <string name="learn_text1">El flash de tu móvil es una fuente de luz blanca que emite en todas las longitudes de onda visibles (colores). Las longitudes de onda que son absorbidas y reflejadas por un objeto determinan su color.</string>
+   	<string name="learn_text2">En la cámara de tu móvil hay un filtro sobre el sensor que hace que cada píxel sensor capture la luz verde, roja o azul. Esto significa que es posible acceder de forma independiente a las imágenes verdes, rojas o azules.</string>   
+    <string name="learn_text3">Esto puede ser muy útil para analizar el color de objetos. Por ejemplo, si el color  es verde,  significa que refleja  el verde de forma más eficiente que el rojo o el azul. El resultado es que el objeto aparecerá brillante  en la imagen verde, y apagado en las imágenes roja y azul.</string>   
+    <string name="learn_text4">Cuando se visualiza la piel humana a través de imágenes,  parte de la luz que captura la cámara  ha sido reflejada por el tejido bajo la piel tras interaccionar con el tejido y la sangre. Las siguientes imágenes representan las imágenes individuales roja, verde y azul que la cámara ha captado de la cara. Como la sangre es roja, el tejido reflejará más luz roja que verde o azul. Dicho de otra forma, cuanta más sangre haya en el tejido, se reflejará menos luz verde .</string>   
+    <string name="learn_text5">Esto significa que mirando la diferencia entre las imágenes roja y verde, es posible obtener una imagen que es sensible a la concentración de sangre. Esta imagen es calculada midiendo el contraste entre las imágenes roja y verde utilizando la siguiente fórmula.</string> 
+    <string name="learn_text6">Un experimento sencillo consiste en presionar el brazo con el pulgar durante unos segundos. Esto hace que la sangre no llegue al área de presión, y cuando dejas de presionar, la piel en este punto se ve más clara que los alrededores. Subsecuentemente, el área enrojece a medida que la sangre vuelve a fluir.</string>
+    <string name="learn_text7">La absorción de luz roja por parte del tejido y la sangre es similar, por lo que hay poco contraste en la imagen roja. La sangre, sin embargo,  sí absorbe más luz verde que el tejido, y es por eso que se ve un buen contraste en la imagen verde.</string>
+    <string name="learn_text8">De forma alternativa, puedes enfocar tu cámara a la cara de una persona y hacerle preguntas. Si siente vergüenza, puede ruborizarse porque le fluye más sangre a la cara. Podemos seguir este proceso calculando el contraste medio dentro de la región de la cara.</string>   
+
+    
+    <string name="Measure">Mide</string> 
+    <string name="Partners">Socios</string>
+	<string name="partners_text">GoPhoton! es una iniciativa de la alianza ECOP (European Centres for Outreach in Photonics) dedicada a dar a conocer a la sociedad de la importancia de la Fotónica.</string>
+    <string name="btn_start_text">Inicio</string> 
+    <string name="btn_stop_text">Stop</string> 
+    
+	<string name="English">Inglés</string>
+	<string name="Irish">Irlandés</string>
+	<string name="Dutch">Holandés</string>
+	<string name="French">Francés</string>
+	<string name="Spanish">Castellano</string>
+	<string name="Catalan">Catalán</string>
+	<string name="German">Alemán</string>
+	<string name="Italian">Italiano</string>
+	<string name="Slovak">Eslovaco</string>
+	<string name="Portuguese">Portugués</string>
+		
+    <string name="graph_title">Valor del contraste medio</string>
+    <string name="x_label">tiempo</string>
+    <string name="y_label">Contraste	</string>
+    
+    <string name="redImageView">Red Image View</string>
+	<string name="greenImageView">Green Image View</string>
+	<string name="blueImageView">Blue Image View</string>
+	<string name="tiviImageView">TiVi Image View</string>
+	<string name="cameraText">Camera Feed</string>
+	<string name="tiviString">Contrast Image</string>
+	<string name="redString">Red Image</string>
+	<string name="blueString">Blue Image</string>
+	<string name="greenString">Green Image</string>
+	
+</resources>

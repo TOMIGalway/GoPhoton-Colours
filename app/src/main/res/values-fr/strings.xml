@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Couleurs</string>
+    <string name="dummy_string">dummy string</string>
+    
+    <string name="Instructions">Mode d\'emploi</string>
+    <string name="step_1">1. Visez le visage de votre ami avec la caméra du téléphone et appuyez sur le bouton "démarrer".</string>
+    <string name="step_2">2. Placez son visage dans le rectangle bleu de l\'écran. Si votre téléphone ne possède pas de flash, placez-vous dans un lieu bien éclairé.</string>
+    <string name="step_3">3. Posez une question à votre ami. Il va rougir s\'il éprouve de la gêne et le contraste moyen de l\'image va augmenter. Il est important de ne surtout pas bouger pendant ce test.</string>  
+   
+    <string name="Learn">Comprendre</string>
+    <string name="learn_text1">Le flash de votre téléphone est une source de lumière blanche qui émet toutes les longueurs d\'onde visibles. Les longueurs d\'onde qui sont absorbées ou réfléchies par un objet déterminent sa couleur.</string>
+   	<string name="learn_text2">Un filtre coloré recouvre le capteur de la caméra. Il permet à chacun des pixels de n\'être sensible qu\'à la lumière rouge, ou verte ou bleue. On sépare ainsi les images rouges des vertes et des bleues.</string>   
+    <string name="learn_text3">Ceci peut être très utile pour analyser la couleur des objets. Ainsi, un objet vert réfléchit plus la lumière verte que la rouge et la bleue. Cet objet va ainsi apparaître clair dans l\'image verte et sombre dans les images rouges et bleues.</string>   
+    <string name="learn_text4">En regardant la peau, la caméra capture de la lumière réfléchie en partie par l\'intérieur des tissus, lumière qui a donc interagit avec ces tissus et le sang. Les images suivantes représentent les images rouges vertes et bleues du visage capturées par la caméra. Étant donné que le sang est rouge, la lumière réfléchie par les tissus est principalement rouge. En d\'autres termes, plus il y a de sang dans les tissus, moins il y a de lumière verte réfléchie.</string>   
+    <string name="learn_text5">Ainsi, en regardant la différence entre les images rouges et vertes, il est possible d\'obtenir une image sensible à la concentration sanguine. Cette image est obtenue en mesurant le contraste entre les images rouges et vertes à l\'aide de l\'équation suivante.</string> 
+    <string name="learn_text6">Une expérience simple consiste à appuyer sur votre bras avec votre pouce pendant quelques secondes. Cela expulse le sang de cette région qui apparaît brièvement plus claire lorsque vous enlevez le pouce. Elle rougit ensuite lorsque le sang y reflue.</string>
+    <string name="learn_text7">La lumière rouge est absorbée de façon semblable par les tissus et le sang, le changement est donc faible dans l\'image rouge. Le sang absorbe cependant plus la lumière verte que les tissus. Le changement est donc plus fort dans le vert.</string>
+    <string name="learn_text8">Vous pouvez également viser le visage de votre ami et lui poser quelques questions. S\'il éprouve de la gêne, il peut lui arriver de rougir du fait d\'un afflux de sang au visage. Nous pouvons le contrôler en calculant le contraste moyen sur le visage.</string>   
+
+    
+    <string name="Measure">Mesure</string> 
+    <string name="Partners">Partenaires</string>
+	<string name="partners_text">GoPhoton! est une initiative de l\'alliance ECOP, "European Centres for Outreach in Photonics", ayant pour mission de sensibiliser le public à l\'importance de la photonique, la science de la lumière.</string>
+    <string name="btn_start_text">Démarrer</string> 
+    <string name="btn_stop_text">Arrêtez</string> 
+    
+	<string name="English">Anglais</string>
+	<string name="Irish">Irlandais</string>
+	<string name="Dutch">Hollandais</string>
+	<string name="French">Français</string>
+	<string name="Spanish">Espagnol</string>
+	<string name="Catalan">Catalan</string>
+	<string name="German">Allemand</string>
+	<string name="Italian">Italien</string>
+	<string name="Slovak">Slovaque</string>
+	<string name="Portuguese">Portugais</string>
+		
+    <string name="graph_title">Contraste moyen</string>
+    <string name="x_label">temps</string>
+    <string name="y_label">contraste</string>
+    
+    <string name="redImageView">Red Image View</string>
+	<string name="greenImageView">Green Image View</string>
+	<string name="blueImageView">Blue Image View</string>
+	<string name="tiviImageView">TiVi Image View</string>
+	<string name="cameraText">Camera Feed</string>
+	<string name="tiviString">Contrast Image</string>
+	<string name="redString">Red Image</string>
+	<string name="blueString">Blue Image</string>
+	<string name="greenString">Green Image</string>
+	
+</resources>
