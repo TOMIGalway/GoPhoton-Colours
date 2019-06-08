@@ -49,5 +49,8 @@
 	<string name="redString">Red Image</string>
 	<string name="blueString">Blue Image</string>
 	<string name="greenString">Green Image</string>
+
+    <string name="languageString">Jazyk</string>
+    <string name="privacyString">Ochrana osobných údajov</string>
 	
 </resources>

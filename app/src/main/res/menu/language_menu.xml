@@ -1,7 +1,10 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools" >
 
-    
+    <item android:title="@string/languageString" android:id="@+id/language">
+
+        <menu>
+
   		<item
         android:title="@string/Catalan"
         android:id="@+id/catalan" 
@@ -62,5 +65,14 @@
         android:checkableBehavior="single" 
         android:visible="true" />
 
+        </menu>
+
+    </item>
+
+    <item
+        android:title="@string/privacyString"
+        android:id="@+id/privacy"
+        android:checkableBehavior="single"
+        android:visible="true" />
 
 </menu>

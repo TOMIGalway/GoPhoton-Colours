@@ -16,8 +16,7 @@
     <string name="learn_text5">This means that by looking at the difference between the red and green images, it is possible to get an image which is sensitive to blood concentration. This image is calculated by measuring the contrast between the red and green images using the following equation.</string> 
     <string name="learn_text6">A simple experiment is to press down on your arm using your thumb for a few seconds. This pushes the blood out of this region and when you release, it temporarily appears lighter in colour. Subsequently, it appears more red as the blood re-enters the region.</string>
     <string name="learn_text7">The absorption of red light for tissue and blood is quite similar, hence there is little contrast in the red image. However, the blood will absorb more green light than tissue, hence good contrast is seen in the green image.</string>
-    <string name="learn_text8">Alternatively, you can point the camera at your friend\'s face and ask them some questions. If they get embarrassed, sometimes they turn red because more blood flows into the facial region. We can monitor this by calculating the mean contrast within in the face-region.</string>   
-
+    <string name="learn_text8">Alternatively, you can point the camera at your friend\'s face and ask them some questions. If they get embarrassed, sometimes they turn red because more blood flows into the facial region. We can monitor this by calculating the mean contrast within in the face-region.</string>
     
     <string name="Measure">Measure</string> 
     <string name="Partners">Partners</string>
@@ -49,5 +48,8 @@
 	<string name="redString">Red Image</string>
 	<string name="blueString">Blue Image</string>
 	<string name="greenString">Green Image</string>
+
+    <string name="languageString">Language</string>
+    <string name="privacyString">Privacy policy</string>
 	
 </resources>
