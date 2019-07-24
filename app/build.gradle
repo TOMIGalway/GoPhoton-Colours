@@ -1,7 +1,7 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 20
+    compileSdkVersion 26
     buildToolsVersion "28.0.3"
 
     defaultConfig {
@@ -19,8 +19,7 @@ android {
 }
 
 dependencies {
-    implementation 'com.android.support:support-v4:20.0.0'
-    implementation 'com.android.support:support-v4:20.0.+'
+    implementation 'com.android.support:support-v4:26.0.0'
     implementation files('libs/androidplot-core-0.6.1.jar')
     implementation files('libs/JTransforms-3.0.jar')
 }
